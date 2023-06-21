@@ -1,0 +1,11 @@
+(function($){
+    $('.hero-inner').owlCarousel({
+        items:1,
+        loop:true,
+        nav:true,
+        dots:true,
+        smartSpeed:2000,
+        autoplay:true,
+        autoplayTimeout:5000,
+    })
+})(jQuery);
